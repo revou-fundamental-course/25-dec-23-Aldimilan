@@ -3,12 +3,20 @@ html{
     padding: -10px;
 }
 
+body{
+    background: #fbffc5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  	line-height: 1.7;
+    font-weight: 700;
+}
+
 /*navbar start*/
 
 .navbar{
     background-color: #1f2626;
     width: 100%;
-    height: 75px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center ;
@@ -23,55 +31,19 @@ html{
     padding: 0;
 }
 
-
-body{
-    background: #fbffc5;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-  	line-height: 1.7;
-    font-weight: 700;
+.select-buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-inline-start: 25%;
+    margin-inline-end: 25%;
+    transform: translateY(100px);
 }
-
-
-.container h1{
-    color: transparent;
-    font-weight: 900;
-    font-size: 30pt;
-    font-style: italic;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
-}
-.container {
-    width: 80%;
-    margin-block-start: 0%;
-    margin-top: 0% auto;
-}
-
-.container2 {
-    margin-top: 50px;
-    width: 80%;
-    margin: 0 auto;
-    background: rgba(168, 168, 168, 0.2);
-}
-
-nav {
-    float: left;
-}
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-nav li {
-    display: inline-block;
-    margin-left: 70px;
-    padding-top: 55px;
-    position: relative;
-}
-button {
+.button {
     border-radius: 15px;
-    background-color: transparent;
+    background-color: hsl(29, 92%, 50%);;
     border-color: #000000;
+    border-width: 5px;
     color: black;
     padding: 15px 32px;
     text-align: center;
@@ -80,45 +52,13 @@ button {
     transition-duration: 0.4s;
     
 }
-button:hover {
+.button:hover {
     border-radius: 15px;
     background-color: #000000;
-    color: white;
+    color: hsl(29, 92%, 50%);
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
     
 }
-
-header {
-    background: #e3e663;
-}
-
-header::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-.closebtn {
-    border-radius: 50px;
-    background-color: hwb(29 2% 1%);
-    float: right;
-    color: black;
-    padding: 10px;
-    margin-top: 12px;
-    margin-right: 30px;
-    font-size: 30px;
-    cursor: pointer;
-  }
-
-  .closebtn:hover {
-    border-radius: 50px;
-    background-color: hsl(29, 75%, 55%);
-    float: right;
-    color: black;
-    margin-top: 12px;
-    font-size: 30px;
-    cursor: pointer;
-  }

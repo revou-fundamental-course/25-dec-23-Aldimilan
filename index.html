@@ -10,55 +10,20 @@
     <script type="text/javascript" src="js/script.js"></script>
     <title>Kalkulator Matematika</title>
 </head>
-
 <body>
-
-
-<header>
-    <div class="container">
-        <nav>
-          <ul>
-            <li><h1>Kalkulator Matematik</h1></li>
-            <li>
-              <button type="button" class="button" onclick="expand('expda');">
-                Keliling Segitiga
-              </button>
-            </li>
-            <li>
-              <button type="button" class="button" onclick="expand('expdb');">
-                Luas Segitiga
-              </button>
-            </li>
-            
-          </ul>
-        </nav>
-      </div>
-
-      
-</header>
-
-
-<div id="expda" class="tab" style="display:none;">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">
-    &times;
-  </span>
-  <p>
-    inia
-  </p>
-</div>
-
-<div id="expdb" class="tab" style="display:none;">
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">
-    &times;
-  </span>
-  <p>
-    inib
-  </p>
-</div>
-
-<script>
+  <header class="navbar">
+    <h1>Kalkulator Matematika</h1>
+  </header>
   
-</script>
-    
+  <main class="main-content">
+    <p></p>
+    <div class="select-buttons">
+      <button class="button" id="luas-button" onclick="location.href='#luas'">Luas Segitiga</button>
+      <h1>ATAU</h1>
+      <button class="button" id="keliling-button" onclick="location.href='#keliling'">Keliling Segitiga</button>
+  </div>
+  </main>
+
+
 </body>
 </html>
