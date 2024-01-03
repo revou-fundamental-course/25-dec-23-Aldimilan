@@ -60,5 +60,15 @@ body{
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    
 }
+
+
+.container{
+    text-align: center;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    margin-inline-start: 30%;
+    margin-inline-end: 30%;
+}
+
