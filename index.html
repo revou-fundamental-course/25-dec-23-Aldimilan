@@ -15,7 +15,7 @@
     <h1>Kalkulator Matematika</h1>
   </header>
   
-  <main class="main-contents">
+  <main>
     <div class="container">
       <h1>Selamat Datang!</h1>
       <p>Kalkulator Matematika adalah web app penghitung Luas dan Keliling Segitiga yang dibuat untuk memenuhi tugas RevoU Fundamental Course</p>
@@ -27,22 +27,24 @@
       <button class="button" id="keliling-button" onclick="location.href='#keliling'">Keliling Segitiga</button>
   </div>
 
-  <div>
+  <div class="list-container">
     <!-- Luas Segitiga -->
     <div>
       <img src="" alt="">
     </div>
-    <div>
+    <div class="input-container">
       <label for="sisia">Sisi A</label>
       <input type="text">
+
       <label for="sisib">Sisi B</label>
       <input type="text">
+
       <label for="sisic">Sisi C</label>
       <input type="text">
     </div>
     <div>
-      <button>Hitung</button>
-      <button>Reset</button>
+      <button class="buttonb" onclick="">Hitung</button>
+      <button class="buttonb" onclick="">Reset</button>
     </div>
     <div class="result">
       <p></p>
@@ -51,21 +53,22 @@
 
 
   </div>
-  <div>
+  <div class="list-container">
     <!-- Keliling Segitiga -->
     <div> 
       <img src="" alt="">
 
     </div>
-    <div>
+    <div class="input-container">
       <label for="panjang">Panjang</label>
       <input type="text">
+
       <label for="tinggi">Tinggi</label>
       <input type="text">
     </div>
     <div>
-      <button>Hitung</button>
-      <button>Reset</button>
+      <button class="buttonb" onclick="">Hitung</button>
+      <button class="buttonb" onclick="">Reset</button>
     </div>
     <div class="result">
       <p></p>
@@ -75,7 +78,9 @@
   </div>
   </main>
 
-  
+  <footer class="footer">
+    <p>by Aldi Milansyah Putra | Gmail : aldimilansyahputra@gmail.com</p>
+  </footer>
 
 
 </body>

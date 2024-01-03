@@ -63,6 +63,31 @@ body{
     font-size: 16px;
 }
 
+.buttonb {
+    border-radius: 10px;
+    background-color: hsl(29, 92%, 50%);;
+    border-color: #000000;
+    border-width: 4px;
+    color: black;
+    padding: 15px 32px;
+    margin-top: 10px;
+    margin: 2%;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    
+}
+.buttonb:hover {
+    border-radius: 10px;
+    background-color: #000000;
+    color: hsl(29, 92%, 50%);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+}
 
 .container{
     text-align: center;
@@ -75,3 +100,38 @@ body{
 }
 
 
+.list-container{
+    text-align: center;
+    font-weight: bold;
+    justify-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-inline-start: 20%;
+    margin-inline-end: 20%;
+    
+}
+
+input[type=text] {
+    text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
+
+.footer {
+    background-color: #1f2626;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 8px rgb(66, 66, 66);
+    margin-bottom: -10px;
+    padding: 0;
+    margin-top: 10%;
+    color: #fffffb;
+    text-align: center;
+    font-weight: lighter;
+}
