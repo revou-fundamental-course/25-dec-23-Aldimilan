@@ -12,18 +12,53 @@
 </head>
 
 <body>
+
+
 <header>
     <div class="container">
         <nav>
           <ul>
             <li><h1>Kalkulator Matematik</h1></li>
-            <li><a href="#">Segitiga</a></li>
-            <li><a href="#">Jajar Genjang</a></li>
+            <li>
+              <button type="button" class="button" onclick="expand('expda');">
+                Keliling Segitiga
+              </button>
+            </li>
+            <li>
+              <button type="button" class="button" onclick="expand('expdb');">
+                Luas Segitiga
+              </button>
+            </li>
+            
           </ul>
         </nav>
       </div>
+
+      
 </header>
 
+
+<div id="expda" class="tab" style="display:none;">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">
+    &times;
+  </span>
+  <p>
+    inia
+  </p>
+</div>
+
+<div id="expdb" class="tab" style="display:none;">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">
+    &times;
+  </span>
+  <p>
+    inib
+  </p>
+</div>
+
+<script>
+  
+</script>
     
 </body>
 </html>
