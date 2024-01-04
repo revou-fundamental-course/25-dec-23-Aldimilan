@@ -29,25 +29,27 @@
 
   <div class="list-container">
     <!-- Luas Segitiga -->
-    <div class="image-container">
+    <div class="image-container" id="luas">
+      <h1 class="title-luas">Kalkulator Luas Segitiga</h1>
       <img src="img/luas.png" alt="Luas Segitiga">
     </div>
     <div class="input-container">
-      <label for="sisia">Sisi A</label>
-      <input type="text">
+      <p for="sisia">Sisi A&nbsp;</p>
+      <input type="text" id="sisia">
 
-      <label for="sisib">Sisi B</label>
-      <input type="text">
+      <p for="sisib"><br>Sisi B&nbsp;</p>
+      <input type="text" id="sisib">
 
-      <label for="sisic">Sisi C</label>
-      <input type="text">
+      <p for="sisic"><br>Sisi C&nbsp;</p>
+      <input type="text" id="sisic">
     </div>
     <div>
-      <button class="buttonb" onclick="">Hitung</button>
-      <button class="buttonb" onclick="">Reset</button>
+      <button class="buttonb" onclick="hitungLuas()">Hitung</button>
+      <button class="buttonb" onclick="resetLuas()">Reset</button>
     </div>
     <div class="result">
-      <p></p>
+      <h3>Hasil Luas :</h3>
+      <h1 id="hasilLuas"></h1>
 
     </div>
 
@@ -56,23 +58,25 @@
   <div class="list-container">
     <!-- Keliling Segitiga -->
 
-    <div class="image-container"> 
+    <div class="image-container" id="keliling"> 
+      <h1 class="title-luas">Kalkulator Keliling Segitiga</h1>
       <img src="img/keliling.png" alt="Keliling Segitiga">
 
     </div>
     <div class="input-container">
-      <label for="panjang">Panjang</label>
-      <input type="text">
+      <p for="panjang">Alas&nbsp;&nbsp;&nbsp;</p>
+      <input type="text" id="alas">
 
-      <label for="tinggi">Tinggi</label>
-      <input type="text">
+      <p for="tinggi"><br>Tinggi&nbsp;</p>
+      <input type="text" id="tinggi">
     </div>
     <div>
-      <button class="buttonb" onclick="">Hitung</button>
-      <button class="buttonb" onclick="">Reset</button>
+      <button class="buttonb" onclick="hitungKeliling()">Hitung</button>
+      <button class="buttonb" onclick="resetKeliling()">Reset</button>
     </div>
     <div class="result">
-      <p></p>
+      <h3>Hasil Keliling :</h3>
+      <h1 id="hasilKeliling"></h1>
     </div>
 
 
@@ -80,7 +84,7 @@
   </main>
 
   <footer class="footer">
-    <p>by Aldi Milansyah Putra | Gmail : aldimilansyahputra@gmail.com</p>
+    <p><br>by Aldi Milansyah Putra | Gmail : aldimilansyahputra@gmail.com</p>
   </footer>
 
 
