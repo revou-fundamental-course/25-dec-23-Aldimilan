@@ -1,3 +1,7 @@
+  
+  
+  /* Maaf teruntuk kakak yang mengecek code, ID keliling dan Luas terbalik */
+  
   function hitungLuas() {
     var sisia = parseFloat(document.getElementById('sisia').value);
     var sisib = parseFloat(document.getElementById('sisib').value);
